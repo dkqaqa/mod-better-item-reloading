@@ -67,7 +67,7 @@ public:
 
             if (!result)
             {
-                handler->PSendSysMessage("Couldn't reload item_template entry %u", entry);
+               // handler->PSendSysMessage("Couldn't reload item_template entry %u", entry);
                 continue;
             }
 
@@ -595,7 +595,7 @@ public:
 
             }
 
-            handler->PSendSysMessage("Reloaded item template entry %u", entry);
+           // handler->PSendSysMessage("Reloaded item template entry %u", entry);
         }
 
         return true;
